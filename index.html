@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mes recettes de cuisine</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1 onclick="location.reload();">Mes recettes de cuisine</h1>
+    </header>
+    <nav id="menu">
+      <a href="#" onclick="afficherListe('entree')">Entrée</a>
+      <a href="#" onclick="afficherListe('plat')">Plat</a>
+      <a href="#" onclick="afficherListe('dessert')">Dessert</a>
+    </nav>
+    <main id="recettes">
+      <!-- Les recettes seront générées ici par JavaScript -->
+      <div id="recette-container">
+        <h4>Choisir une recette dans l'une des trois catégories</h4>
+        <!-- Le détail de la recette sera généré ici par JavaScript -->
+      </div>
+    </main>
+    <footer>
+      <p>© 2024 Mes recettes de cuisine - Nid2©reator</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
