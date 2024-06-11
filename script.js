@@ -25,6 +25,21 @@ var recettes = {
       instructions:
         "Préparez la béchamel : faites fondre le beurre dans une casserole. Ajoutez la farine et mélangez avec une cuillère en bois. Versez le lait en filet, sans cesser de fouetter, puis faites épaissir sur feu doux pendant environ 10 min en remuant régulièrement. Salez et poivrez. Faites cuire les coquillettes al dente dans une casserole d’eau bouillante salée. Égouttez. Préchauffez le four à 210° (th.7). Versez les pâtes dans un plat à gratin, ajoutez le jambon coupé en lanières et la béchamel puis mélangez. Couvrez d’emmental râpé, puis enfournez et laissez gratiner environ 15 min. Servez bien chaud[^1^][1].",
     },
+    {
+      id: "souffle_fromage",
+      nom: "Soufflé au Fromage",
+      ingredients: [
+        "1/4 litre de lait",
+        "4 oeufs",
+        "30 g de beurre",
+        "2 cuillères à soupe de farine",
+        "100 g de gruyère râpé",
+        "Sel",
+        "Poivre",
+        "Muscade"
+      ],
+      instructions: "Râpez le fromage. Faites fondre le beurre, délayez-y la farine et remuez sur le feu avec une cuillère en bois pendant quelques minutes sans laisser colorer. Ajoutez le lait tiède, bien délayez et reportez à feu doux sans cesser de mélanger jusqu'à ce que le mélange épaississe. Mettez le fromage. Salez et poivrez la béchamel (pas trop car le fromage va relever le goût). Éloignez du feu, attendez quelques instants. Incorporez un jaune d'œuf en battant vigoureusement, puis un second et un troisième, toujours en travaillant énergiquement la pâte après chaque adjonction. (A noter que 3 jaunes seulement sont utilisés). Beurrez un moule à soufflé bien jusqu'au bord (attention à ne pas toucher l'intérieur du moule après cette opération). Battez les 4 blancs en neige très ferme. En incorporez 2 cuillères à soupe à la béchamel en remuant bien puis incorporez le reste délicatement, en soulevant bien la pâte avec la spatule. S'il reste des traces de blancs en neige, ce n'est pas grave, cela permettra au soufflé de monter. Versez dans le moule qui ne doit être rempli qu'à moitié. Portez à four doux (thermostat 4 à 5, soit 180°C), puis augmentez un peu la chaleur. Ne pas ouvrir le four pendant le premier 1/4 d'heure. Servez le soufflé immédiatement, car il dégonfle rapidement une fois sorti du four."
+    },
     // Ajoutez plus de recettes de plat ici
   ],
   dessert: [
@@ -32,15 +47,14 @@ var recettes = {
       id: "crepes",
       nom: "Crêpes",
       ingredients: [
-        "250g de farine",
-        "4 oeufs",
-        "un demi-litre de lait",
-        "une pincée de sel",
-        "50g de beurre fondu",
-        "1 sachet de sucre vanillé",
+        "300g de farine",
+        "3 oeufs",
+        "50 cl de lait",
+        "25 cl de bière blonde",
+        "6 cuillères à soupe d'huile",
+        "40g de sucre en poudre"
       ],
-      instructions:
-        "Mettez la farine dans un saladier avec le sucre, le sucre vanillé et le sel. Faites un puits et cassez-y les oeufs. Mélangez délicatement avec un fouet en ajoutant au fur et à mesure le lait. La pâte ainsi obtenue doit avoir une consistance d’un liquide légèrement épais. Ajoutez le beurre fondu à la préparation tout en continuant de mélanger. Laissez reposer la pâte à crêpes pendant 1 heure. Faites chauffer une poêle antiadhésive et versez-y une louche de pâte à crêpes. Laissez cuire la crêpe sur feu moyen pendant environ 2 minutes, jusqu’à ce que des bulles se forment à la surface. Retournez la crêpe et faites-la cuire environ 1 minute de l’autre côté.",
+      instructions: "Dans un saladier, versez la farine et formez un puits, versez le lait en plusieurs fois dans ce puits. Mélangez en faisant tomber la farine petit à petit dans le lait afin de l'incorporer sans créer de grumeaux. Ajoutez ensuite la bière et mélangez de nouveau. Battez les œufs puis incorporez-les à la pâte avec l'huile. Versez enfin le sucre et mélangez bien. Laissez la pâte reposer 1 heure minimum (plus elle reposera mieux ça sera). Après ce temps de repos, mélangez un peu de nouveau et faites cuire vos crêpes dans une poêle à crêpes huilée."
     },
     {
       id: "gateau",
@@ -56,6 +70,18 @@ var recettes = {
       instructions:
         "Préchauffez votre four à 170°C (thermostat 5-6). Séparez les blancs des jaunes d'oeufs. Dans un saladier, battez les jaunes avec le sucre jusqu'à ce que le mélange blanchisse. Ajoutez le zeste du citron râpé et mélangez. Incorporez la farine et la fécule tamisées ensemble. Montez les blancs en neige avec une pincée de sel et incorporez-les délicatement à la préparation. Versez la pâte dans un moule à manqué beurré et fariné. Enfournez pour 45 minutes. Vérifiez la cuisson avec la pointe d'un couteau, elle doit ressortir sèche. Laissez refroidir avant de démouler.",
     },
+    {
+      id: "roussettes",
+      nom: "Roussettes",
+      ingredients: [
+        "500 g de farine",
+        "3 oeufs",
+        "125 g de beurre",
+        "2 cuillères à soupe de lait",
+        "1 cuillère à soupe d'eau de vie"
+      ],
+      instructions: "Mélangez tous les ingrédients. Laissez reposer la pâte 3 heures. Étendez la pâte au rouleau sur 3 mm d'épaisseur, découpez des formes géométriques diverses (losanges, carrés, ronds...), faites frire en friture chaude, 2 à 3 min, égouttez et saupoudrez de sucre sur les 2 faces."
+    },    
     // Ajoutez plus de recettes de dessert ici
   ],
 };
