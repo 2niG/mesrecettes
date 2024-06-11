@@ -83,7 +83,7 @@ var recettes = {
           "1 pincée de Sel"
       ],
       instructions: "Dans un saladier, mélangez la farine et la levure. Ajoutez les œufs un à un en mélangeant bien après chaque ajout. Ajoutez le lait petit à petit tout en mélangeant pour obtenir une pâte lisse. Ajoutez l'extrait de vanille et l'huile (ou le beurre fondu) et mélangez bien. Laissez reposer la pâte pendant 1 heure. Préchauffez votre gaufrier et huilez-le légèrement. Versez une louche de pâte dans chaque empreinte de gaufre et faites cuire jusqu'à ce que les gaufres soient dorées et croustillantes. Servez chaud avec du sucre glace, de la confiture, du Nutella ou de la chantilly."
-  }
+  },
     {
       id: "roussettes",
       nom: "Roussettes",
