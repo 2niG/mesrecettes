@@ -71,6 +71,20 @@ var recettes = {
         "Préchauffez votre four à 170°C (thermostat 5-6). Séparez les blancs des jaunes d'oeufs. Dans un saladier, battez les jaunes avec le sucre jusqu'à ce que le mélange blanchisse. Ajoutez le zeste du citron râpé et mélangez. Incorporez la farine et la fécule tamisées ensemble. Montez les blancs en neige avec une pincée de sel et incorporez-les délicatement à la préparation. Versez la pâte dans un moule à manqué beurré et fariné. Enfournez pour 45 minutes. Vérifiez la cuisson avec la pointe d'un couteau, elle doit ressortir sèche. Laissez refroidir avant de démouler.",
     },
     {
+      id: "gaufres",
+      nom: "Gaufres moelleuses et croustillantes",
+      ingredients: [
+          "160g de Farine",
+          "4 Oeufs",
+          "200ml de Lait demi-écrémé",
+          "1 sachet de Levure chimique",
+          "1 cuillère à café d'Extrait de vanille liquide ou en poudre",
+          "4 cuillères à café d'Huile de tournesol, pépin de raisin, coco ou beurre fondu",
+          "1 pincée de Sel"
+      ],
+      instructions: "Dans un saladier, mélangez la farine et la levure. Ajoutez les œufs un à un en mélangeant bien après chaque ajout. Ajoutez le lait petit à petit tout en mélangeant pour obtenir une pâte lisse. Ajoutez l'extrait de vanille et l'huile (ou le beurre fondu) et mélangez bien. Laissez reposer la pâte pendant 1 heure. Préchauffez votre gaufrier et huilez-le légèrement. Versez une louche de pâte dans chaque empreinte de gaufre et faites cuire jusqu'à ce que les gaufres soient dorées et croustillantes. Servez chaud avec du sucre glace, de la confiture, du Nutella ou de la chantilly."
+  }
+    {
       id: "roussettes",
       nom: "Roussettes",
       ingredients: [
