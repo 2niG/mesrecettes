@@ -6,9 +6,42 @@ var recettes = {
       ingredients: ["laitue", "parmesan", "croûtons", "sauce César"],
       instructions: "Mélangez tous les ingrédients dans un grand bol.",
     },
+    {
+      id: "salade_riz",
+      nom: "Salade de Riz",
+      ingredients: [
+        "200g de riz",
+        "1 boîte de thon",
+        "2 tomates",
+        "1 concombre",
+        "1 poivron rouge",
+        "1 oignon rouge",
+        "2 œufs durs",
+        "Quelques olives noires",
+        "Vinaigrette (huile d'olive, vinaigre, moutarde, sel, poivre)"
+      ],
+      instructions:
+        "Faites cuire le riz selon les instructions sur l'emballage. Laissez-le refroidir. Pendant ce temps, coupez les tomates, le concombre, le poivron et l'oignon en petits morceaux. Égouttez le thon. Mélangez tous les ingrédients dans un grand saladier. Ajoutez les œufs durs coupés en quartiers et les olives noires. Assaisonnez avec la vinaigrette. Mélangez bien et servez frais."
+    },    
     // Ajoutez plus de recettes d'entrée ici
   ],
   plat: [
+    {
+      id: "axoa_veau",
+      nom: "Axoa de Veau",
+      ingredients: [
+        "800g de veau coupé en petits dés",
+        "2 poivrons verts",
+        "2 poivrons rouges",
+        "1 oignon",
+        "3 gousses d'ail",
+        "1 cuillère à soupe de piment d'Espelette",
+        "2 cuillères à soupe d'huile d'olive",
+        "Sel"
+      ],
+      instructions:
+        "Faites chauffer l'huile dans une sauteuse, ajoutez l'oignon et l'ail hachés, faites-les revenir. Ajoutez les poivrons coupés en lanières et faites-les cuire pendant 5 minutes. Ajoutez le veau et faites-le dorer de tous les côtés. Saupoudrez de piment d'Espelette et de sel. Couvrez et laissez mijoter pendant 1 heure à feu doux. Servez chaud."
+    },    
     {
       id: "cake_thon",
       nom: "Cake au Thon",
@@ -26,6 +59,44 @@ var recettes = {
         "Mélangez tous les ingrédients dans un saladier, en incorporant le thon et le gruyére en dernier. Versez le mélange dans un moule à cake beurré et fariné. Faites cuire 40 à 45mn au four thermostat 6-7 (180°C-210°C)",
     },
     {
+      id: "cassolette_st_jacques",
+      nom: "Cassolette de Saint-Jacques",
+      ingredients: [
+        "400g de noix de saint-jacques",
+        "20 crevettes roses fraîches",
+        "300g de champignons de Paris frais",
+        "3 oignons",
+        "1 gousse d'ail",
+        "2 cl de whisky",
+        "Margarine pour beurrer des cassolettes",
+        "Persil frais",
+        "Pour la sauce :",
+        "2 cuillères à soupe de farine",
+        "20 cl de crème fraîche",
+        "15 cl de vin blanc"
+      ],
+      instructions:
+        "Couper finement l'oignon ainsi que l'ail. Emincer les champignons. Faire revenir l'ail et les oignons dans une poêle avec un peu de matière grasse. Mettre les champignons à cuire dans une deuxième poêle. Faire dorer les noix de Saint-Jacques à la poêle avec un filet d'huile d'olive (1 minute puis les retourner) ajouter le whisky (ou autre alcool pour les faire flamber). Réserver et garder le jus de cuisson à part. Préparer les cassolettes en beurrant légèrement chaque plat individuel (allant au four). Ajouter dans chacune d'elles : oignons, champignons, les noix de Saint-Jacques ainsi que 5 crevettes et le persil préalablement haché. Réserver. Préparer la sauce. Verser dans casserole sur feu doux le vin blanc, la crème fraîche, le jus de cuisson des noix de Saint-Jacques. Fouetter et ajouter la farine pour épaissir la préparation. Répartir ensuite la sauce dans chaque cassolette individuelle. Enfourner à 200°C (thermostat 6-7) durant 20 min."
+    },    
+    {
+      id: "couscous",
+      nom: "Couscous",
+      ingredients: [
+        "500g de semoule de couscous",
+        "300g de viande d'agneau",
+        "4 carottes",
+        "2 courgettes",
+        "1 oignon",
+        "2 gousses d'ail",
+        "1 boîte de pois chiches",
+        "1 cuillère à soupe de ras el hanout",
+        "2 cuillères à soupe d'huile d'olive",
+        "Sel, poivre"
+      ],
+      instructions:
+        "Dans une grande casserole, faites revenir l'oignon et l'ail hachés dans l'huile d'olive. Ajoutez la viande et faites-la dorer de tous les côtés. Ajoutez les carottes et les courgettes coupées en morceaux, les pois chiches, le ras el hanout, le sel et le poivre. Couvrez d'eau et laissez mijoter pendant 1 heure. Pendant ce temps, préparez la semoule selon les instructions sur l'emballage. Servez le couscous avec les légumes et la viande."
+    },    
+    {
       id: "gratin_pates",
       nom: "Gratin de pâtes au jambon façon Cyril Lignac",
       ingredients: [
@@ -41,6 +112,19 @@ var recettes = {
       instructions:
         "Préparez la béchamel : faites fondre le beurre dans une casserole. Ajoutez la farine et mélangez avec une cuillère en bois. Versez le lait en filet, sans cesser de fouetter, puis faites épaissir sur feu doux pendant environ 10 min en remuant régulièrement. Salez et poivrez. Faites cuire les coquillettes al dente dans une casserole d’eau bouillante salée. Égouttez. Préchauffez le four à 210° (th.7). Versez les pâtes dans un plat à gratin, ajoutez le jambon coupé en lanières et la béchamel puis mélangez. Couvrez d’emmental râpé, puis enfournez et laissez gratiner environ 15 min. Servez bien chaud.",
     },
+    {
+      id: "pate_pizza",
+      nom: "Pâte à Pizza",
+      ingredients: [
+        "300g de farine",
+        "1 sachet de levure de boulanger",
+        "2 cuillères à soupe d'huile d'olive",
+        "1 cuillère à café de sel",
+        "15cl d'eau tiède"
+      ],
+      instructions:
+        "Dans un saladier, mélangez la farine, la levure, le sel, l'huile d'olive et l'eau tiède. Pétrissez la pâte jusqu'à ce qu'elle soit homogène et élastique. Couvrez le saladier avec un torchon propre et laissez la pâte lever pendant 1 à 2 heures à température ambiante. Une fois la pâte levée, étalez-la sur une surface farinée pour former votre pizza."
+    },    
     {
       id: "souffle_fromage",
       nom: "Soufflé au Fromage",
