@@ -185,6 +185,21 @@ var recettes = {
       instructions:
         "Mélangez tous les ingrédients. Laissez reposer la pâte 3 heures. Étendez la pâte au rouleau sur 3 mm d'épaisseur, découpez des formes géométriques diverses (losanges, carrés, ronds...), faites frire en friture chaude, 2 à 3 min, égouttez et saupoudrez de sucre sur les 2 faces.",
     },
+    {
+      id: "gateau_marbre",
+      nom: "Gâteau marbré (recette de grand-mère)",
+      ingredients: [
+        "1 paquet de levure (chimique)",
+        "200 g de farine",
+        "200 g de sucre",
+        "125 g de beurre",
+        "3 oeufs",
+        "6 cuillères à soupe de lait",
+        "1 paquet de sucre vanillé",
+        "25 g de chocolat en poudre (poulain)"
+      ],
+      instructions: "Étape 1: Travaillez le beurre avec le sucre. Étape 2: Ajoutez les jaunes d'oeufs, le lait, la farine et la levure. Étape 3: Ajoutez les blancs battus en neige. Étape 4: Puis séparez la pâte en deux parties : parfumez l'une à la vanille et l'autre au chocolat. Étape 5: Beurrez (et farinez) un moule à cake. Étape 6: Versez les deux préparations en alternance dans un moule beurré, puis mettez le moule dans le four (thermostat 4-5), pendant environ 40 min."
+    },
     // Ajoutez plus de recettes de dessert ici
   ],
 };
